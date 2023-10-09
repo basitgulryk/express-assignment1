@@ -32,6 +32,7 @@ const courseSchema = Joi.object().keys({
   task: Joi.string().required(),
   note: Joi.string().required(),
   name: Joi.string().required(),
+  name: Joi.string().required(),
 });
 module.exports = {
   getCourses: (req, res) => {
